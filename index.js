@@ -15,7 +15,7 @@ app.get('/getInputs', function(request, response) {
 });
 
 app.get('/', function(request, response) {
-  res.send("GET Request");
+  response.send("GET Request");
     //response.render('pages/package');
 });
 
