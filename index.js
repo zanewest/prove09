@@ -14,6 +14,10 @@ app.get('/getInputs', function(request, response) {
   getPackage(request, response);
 });
 
+app.get('/', function(request, response) {
+    response.render('/package.html');
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
