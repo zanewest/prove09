@@ -15,7 +15,7 @@ app.get('/getInputs', function(request, response) {
 });
 
 app.get('/', function(request, response) {
-    response.render('/package.html');
+    response.render('pages/package');
 });
 
 app.listen(app.get('port'), function() {

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Package</title>
+    </head>
+    <body>
+        <header>
+            <div>
+
+            </div>
+        </header>
+
+        <nav>
+            <div>
+
+            </div>
+        </nav>
+
+        <main>
+            <div>
+                <h1>USPS Rates</h1>
+                <form action="/getInputs" method="get">
+                  <select name="type">
+                    <option value="letterS">Letters (stamped)</option>
+                    <option value="letterM">Letters (metered)</option>
+                    <option value="largeEnv">Large Envelopes</option>
+                    <option value="parcel">Parcels</option>
+                    <option value="postcard">Postcard</option>
+                  </select>
+                  <input type="text" name="weight" placeholder="Enter Weight (oz)"/>(oz)
+                  <input type="submit" value="Calculate" />
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div>
+
+            </div>
+        </footer>
+    </body>
+</html>
