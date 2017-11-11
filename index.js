@@ -15,7 +15,7 @@ app.get('/getInputs', function(request, response) {
 });
 
 app.get('/', function(request, response) {
-    response.render('pages/package');
+    response.sendFile(path.join(__dirname + '/package.html'));
 });
 
 app.listen(app.get('port'), function() {
